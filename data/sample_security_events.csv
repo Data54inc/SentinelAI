@@ -1,0 +1,8 @@
+timestamp,source,host,user,severity,category,event_summary
+2026-11-17T09:12:00Z,Identity Protection,IDP-PRD-01,svc_admin,Critical,Identity,"Repeated failed logins against privileged account; no success confirmed"
+2026-11-17T08:47:00Z,Endpoint Detection,FIN-WS-27,jdoe,High,Execution,"Encoded PowerShell activity followed by outbound connection attempt"
+2026-11-17T07:58:00Z,Identity Protection,Cloud Access,smitchell,Medium,Identity,"New sign-in from untrusted device and location"
+2026-11-17T06:30:00Z,Network Sensor,HR-APP-04,service_hr_app,Low,Network,"Outbound DNS lookup to low-reputation demo domain"
+2026-11-16T22:40:00Z,Windows Event Logs,DC-02,svc-soc,High,Lateral Movement,"SMB sessions to domain controller after suspicious endpoint behavior"
+2026-11-16T19:18:00Z,Network DLP,ENG-WS-12,hgarcia,Critical,Exfiltration,"Large encrypted outbound transfer after suspicious file access"
+2026-11-16T15:10:00Z,Email Security,MAIL-GW-01,apatel,Medium,Phishing,"User-reported suspicious attachment; execution not confirmed"

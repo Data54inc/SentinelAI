@@ -1,0 +1,8 @@
+[
+  {"timestamp":"2026-11-17T09:12:00Z","source":"Identity Protection","host":"IDP-PRD-01","user":"svc_admin","severity":"Critical","category":"Identity","event_summary":"Repeated failed logins against privileged account; no success confirmed"},
+  {"timestamp":"2026-11-17T08:47:00Z","source":"Endpoint Detection","host":"FIN-WS-27","user":"jdoe","severity":"High","category":"Execution","event_summary":"Encoded PowerShell activity followed by outbound connection attempt"},
+  {"timestamp":"2026-11-17T07:58:00Z","source":"Identity Protection","host":"Cloud Access","user":"smitchell","severity":"Medium","category":"Identity","event_summary":"New sign-in from untrusted device and location"},
+  {"timestamp":"2026-11-17T06:30:00Z","source":"Network Sensor","host":"HR-APP-04","user":"service_hr_app","severity":"Low","category":"Network","event_summary":"Outbound DNS lookup to low-reputation demo domain"},
+  {"timestamp":"2026-11-16T22:40:00Z","source":"Windows Event Logs","host":"DC-02","user":"svc-soc","severity":"High","category":"Lateral Movement","event_summary":"SMB sessions to domain controller after suspicious endpoint behavior"},
+  {"timestamp":"2026-11-16T19:18:00Z","source":"Network DLP","host":"ENG-WS-12","user":"hgarcia","severity":"Critical","category":"Exfiltration","event_summary":"Large encrypted outbound transfer after suspicious file access"}
+]
